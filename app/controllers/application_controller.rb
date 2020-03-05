@@ -16,7 +16,7 @@ configure do
  helpers do
 
    def logged_in?
-     !!current_user    #well always yeild false
+     !!current_user
    end
 
 
